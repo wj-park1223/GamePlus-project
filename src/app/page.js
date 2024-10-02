@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
+
 export default function home() {
   return (
     <div>
@@ -12,12 +14,14 @@ export default function home() {
           <Link href="/">신작게임</Link>
           <Link href="/">인기게임</Link>
       </div>
-      <div class="search">
-        <input id="search-input" placeholder="검색어를 입력하세요" />
+       <div className="search">
+          <input id="search-input" placeholder="검색어를 입력하세요" />
       </div>
-    
-    
-    </div>
+      
+      </div>
   );
 }
+
+
+
 
