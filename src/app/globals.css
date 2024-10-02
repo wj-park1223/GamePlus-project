@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  background: rgb(255, 255, 255);
+  background: rgb(143, 143, 143);
   color: rgb(0, 0, 0);
 }
 
 .Topbanner{
-  background-color: rgb(20, 40, 153);
+  background-color: rgb(25, 40, 124);
   display: flex;
   height: 70px;
   align-items: center;
@@ -29,13 +29,14 @@ button a {
 
 
 .game {
-  border: 5px solid rgb(27, 123, 202);
+  border: 2px;
   padding: 16px;
   width: 230px;
   font-size: 16px;
   list-style: none;
   text-align: center;
   margin: 25px auto;
+  background-color: #668aff;
 }
 
 .bar{
@@ -72,3 +73,7 @@ button a {
   justify-content: center
 }
 
+.gamelist{
+  text-align: center;
+  font-size: 18px;
+}
