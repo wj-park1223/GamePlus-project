@@ -2,7 +2,11 @@
 
 export default function store(){
     return (
-    <div>    
+    <div>
+        <div className="gamestore">
+            <h1>게임상점</h1>
+        </div>
+    
         <div className="game">
             <h4>배틀그라운드</h4>
             <p>장르 : 배틀로얄</p>
