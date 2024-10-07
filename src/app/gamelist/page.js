@@ -4,7 +4,7 @@ export default function Gamelist(){
     return (
     <div>
 
-        <div className="gamelist">
+        <div className="gameheader">
             <h1>게임목록</h1>
         </div>
 

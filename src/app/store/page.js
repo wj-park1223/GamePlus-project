@@ -3,7 +3,7 @@
 export default function store(){
     return (
     <div>
-        <div className="gamestore">
+        <div className="gameheader">
             <h1>게임상점</h1>
         </div>
     

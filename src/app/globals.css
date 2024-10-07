@@ -73,20 +73,12 @@ button a {
   justify-content: center
 }
 
-.gamelist{
+
+.gameheader{
   text-align: center;
   font-size: 18px;
 }
 
-.gamestore{
-  text-align: center;
-  font-size: 18px;
-}
-
-.gamecommunity{
-  text-align: center;
-  font-size: 18px;
-}
 
 .communityui{
   text-align: center;

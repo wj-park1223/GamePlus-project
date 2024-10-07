@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Gamecommunity(){
     return (
     <div>
-        <div className="gamecommunity">
+        <div className="gameheader">
             <h1>게임커뮤니티</h1>
         </div>
 
