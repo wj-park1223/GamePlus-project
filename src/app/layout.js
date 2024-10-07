@@ -22,12 +22,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ko">
       <body>
+        <div>
+          <title>Game Plus</title>
+        </div>
         <div className="Topbanner">
           <Link href="/">Game Plus</Link>
           <Link href="/gamelist">게임</Link>
           <Link href="/store">상점</Link>
           <Link href="/library">라이브러리</Link>
-          <Link href="/library">커뮤니티</Link>
+          <Link href="/community">커뮤니티</Link>
           <div class="button">
             <Link href="/logn"><button>로그인</button></Link>
           </div>

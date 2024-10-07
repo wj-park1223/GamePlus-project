@@ -83,7 +83,18 @@ button a {
   font-size: 18px;
 }
 
+.gamecommunity{
+  text-align: center;
+  font-size: 18px;
+}
+
 .communityui{
   text-align: center;
   font-size: 16px;
+  border: 2px solid black;
+  padding: 16px;
+  list-style: none;
+  background-color: #668aff;
+  margin: 25px auto;
+  width: 250px;
 }
