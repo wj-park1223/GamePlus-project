@@ -19,8 +19,10 @@ body {
 }
 
 button{
-  margin-right: 12px;
+  align-items: center;
+  text-align: center;
 }
+
 
 button a {
   text-decoration: none;
@@ -40,39 +42,44 @@ button a {
 }
 
 .bar{
-  text-align: center;
-  align-items: center;
   font-size: 20px;
-  padding: 16px;
-  align-items: center; 
+  margin: 25px;
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+  text-align: center;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
 }
 
 .bar a{
   color: #000000;
   text-decoration: none;  
   margin: 10px;
+  margin: 0 10px;
 }
 
-.bar2{
-  text-align: center;
-  align-items: center;
-  font-size: 20px;
-  padding: 16px;
-  align-items: center;
-
-}
-
-.bar2 a{
-  color: #000000;
-  text-decoration: none;  
-  margin: 10px;
+.bar div {
+  padding: 20px;
+  border: 2px solid black;
+  margin: 5px auto;
+  width: 250px;
+  background-color: #668aff;
 }
 
 .search{
   display: flex;
-  justify-content: center
+  justify-content: center;
+  margin: 20px 0;
 }
 
+.search input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+
+}
 
 .gameheader{
   text-align: center;
