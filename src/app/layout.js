@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
           <Link href="/store">상점</Link>
           <Link href="/community">커뮤니티</Link>
           <div class="button">
-            <Link href="/logn"><button>로그인</button></Link>
+            <Link href="/login"><button>로그인</button></Link>
           </div>
         </div>
         {children}
