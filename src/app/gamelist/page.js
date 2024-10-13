@@ -1,7 +1,8 @@
 import Link from "next/link";
 
 export default function Gamelist(){
-    return (
+
+return (
     <div>
 
         <div className="gameheader">
