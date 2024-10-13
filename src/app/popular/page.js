@@ -4,9 +4,9 @@ export default function Gamepopular(){
     return(
 
         <div>
-            
+
         <div className="game">
-        <h4>BG: BATTLEGROUNDS</h4>
+        <h4>BATTLEGROUNDS</h4>
         <p>출시일: 2017년 12월 2일</p>
         <p>가격: 무료</p>
         </div>
