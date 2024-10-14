@@ -4,7 +4,9 @@ export default function Gamepopular(){
     return(
 
         <div>
-
+        <div className="gameheader">
+            <h1>인기게임</h1>
+        </div>
         <div className="game">
         <h4>BATTLEGROUNDS</h4>
         <p>출시일: 2017년 12월 2일</p>
